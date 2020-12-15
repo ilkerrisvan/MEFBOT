@@ -1,0 +1,103 @@
+version: "2.0"
+
+nlu:
+- intent: selam
+  examples: |
+    - hey
+    - hello
+    - selam
+    - sa
+    - merhaba
+    - slm
+    - günaydın
+    - hey mefbot
+
+- intent: burs_okul
+  examples: |
+    - alman lisesi mezunuyum bana özel bir burs imkanı var mı ?
+    - yabancı lise mezunları için herhangi bir burs imkanı var mı ?
+    - avusturya lisesi mezunuyum herhangi bir burs imkanı var mı ?
+    - yabancı lise mezunlarına ekstra burs var mı ?
+    - yabancı lise mezunları için mezun var mı ?
+
+- intent: bye
+  examples: |
+    - bb
+    - bye
+    - görüşürüz
+    - iyi akşamlar
+   
+
+- intent: kabul
+  examples: |
+    - yes
+    - ok
+    - evet
+    - tabii
+    - tamam
+
+- intent: red
+  examples: |
+    - no
+    - asla
+    - hayır
+    - imkansız
+
+- intent: nasılsın
+  examples: |
+    - nasılsın
+    - iyi misin
+    - naber
+
+- intent: mef_adres
+  examples: |
+    - mef nerede?
+    - mefe nasıl giderim?
+    - mefin adresini söyler misin?
+    - websitesi nedir ?
+
+- intent: tesekkurler
+  examples: |
+    - teşekkürler
+    - teşekkür ederim
+    - teşekkür 
+    - sağol
+    - sağ ol
+
+- intent: bot_musun
+  examples: |
+    - bot musun?
+    - bilgisayarla mı konusuyorum? 
+    - insan mısın?
+    - sen robot musun?
+
+- intent: seviyor_musun
+  examples: |
+   - beni seviyor musun?
+   - seviyor musun beni?
+
+- intent: siri_tanıyor_musun
+  examples: |
+    - siriyi tanıyor musun?
+    - siri kim?
+    - siri ile aran nasıl?
+
+- intent: rica
+  examples: |
+    - rica ederim  
+
+- intent: acık_mı
+  examples: |
+    - okul gece açık mı?
+    - okul bugün açık mı?
+    - haftasonu okul açık mı?
+    - okul ne zaman açık?
+  
+- intent: out_of_scope
+  examples: |
+    - amerikan başkanı kimdir?
+    - çok acıktım yemek yemeliyim
+    - 2 + 2 kaç?
+    - en iyi hoca kim?
+
+  

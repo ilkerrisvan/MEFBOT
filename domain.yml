@@ -1,0 +1,73 @@
+version: "2.0"
+
+intents:
+  - selam
+  - bye
+  - kabul
+  - red
+  - mef_adres
+  - nasılsın
+  - tesekkurler
+  - bot_musun
+  - seviyor_musun
+  - siri_tanıyor_musun
+  - rica
+  - acık_mı
+  - out_of_scope
+
+  
+
+responses:
+  utter_selam:
+  - text: "Selam! My name is bot MEFbot 😀 Sana nasıl yardımcı olabilirim?"
+
+  utter_bye:
+  - text: "Hoşçakal 👋"
+
+  utter_mef_adres:
+  - text: "Websitemiz: www.mef.edu.tr açık adresimiz ise; Huzur, Maslak Ayazağa Cd. No:4, 34396 Sarıyer/İstanbul "
+
+  utter_nasılsın:
+  - text: "Teşekkür ederim.İyiyim 😊 Sen nasılsın ?"
+
+  utter_bot_musun:
+  - text: "Ben bir robotum.MEF Üniversitesi Bilgisayar Mühendisliği Bölümü tarafından Maslak Ayazağa'da oluşturuldum."
+
+  utter_seviyor_musun:
+  - text: "💕 Peki ya sen?"
+
+  utter_tesekkurler:
+  - text: "Teşekkür ederim.😀"
+
+  utter_rica:
+  - text: "Rica ederim.Cevaplayabileceğim sorun var mı?"
+
+  utter_siri_tanıyor_musun:
+  - text: "Evet,çok konuşuyor.Ben soru cevaplamaya odaklanmış durumdayım.😏"
+
+  utter_acık_mı:
+  - text: "MEF senin için 7 gün 24 saat açık."
+
+
+
+   
+
+actions:
+    - utter_selam
+    - utter_bye
+    - utter_mef_adres
+    - utter_nasılsın
+    - utter_bot_musun
+    - utter_seviyor_musun
+    - utter_tesekkurler
+    - utter_siri_tanıyor_musun
+    - utter_acık_mı
+    - utter_out_of_scope
+    - utter_rica
+ 
+
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
